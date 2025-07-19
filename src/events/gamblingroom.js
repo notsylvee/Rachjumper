@@ -18,7 +18,7 @@ module.exports = {
     if (chance < 948) {
       return;
     } else {
-      message.channel.send(`<:Rachjumper:1395288402919690402> ${voiceline}`);
+      message.channel.send(`<:Rachjumper:1395288402919690402> ${voiceline.text}`);
     };
   },
 };
